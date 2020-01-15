@@ -44,12 +44,29 @@
 
 # 5 Leetspeak
 
-replacements = (('a', '4'), ('e', '3',), ('g', '6'), ('i', '1'), ('o', '0'), ('s', '5'), ('t', '7'))
-for leet in replacements:
-    if
+# replacements = [('a', '4'), ('e', '3',), ('g', '6'), ('i', '1'), ('o', '0'), ('s', '5'), ('t', '7')]
+
+# s = ("I am a leet programmer")
+
+# leet = {'a' : '4', 'e' : '3', 'g' : '6', 'i' : '1', 'o' : '0', 's' : '5', 't' : '7'}
+
+# for k, v in leet.items(): 
+#     s = s.replace(k, v)
+
+# print(s)
 
 # # 6 Long-long Vowels
+# dark = ("aardvark")
 
-# vowels = (('a' = 'aaaaa'), ('e', 'eeeee',), ('i', 'iiiii'), ('o', 'ooooo'), ('u', 'uuuuuu'))
-# long = vowels.replace(a,b)
-# print(long('cheese'))
+# vowels = {'a' : 'aaaaa', 'e' : 'eeeee', 'i' : 'iiiii', 'o' : 'ooooo', 'u' : 'uuuuuu'}
+# for a, v in vowels.items():
+#     dark =c dark.replace(a,v)
+
+# print(dark)
+
+# 7 The Caesar Cipher
+# cipher = ("lbh zhfg hayrnea jung lbh unir yrnearq")
+# cipher_fix = "".join(chr(ord(letter)+1) for letter in cipher)
+# print(cipher_fix)
+
+
