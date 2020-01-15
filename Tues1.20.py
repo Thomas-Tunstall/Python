@@ -58,32 +58,60 @@
 # convert_to_F = (temp * 1.8 + 32)
 # print(convert_to_F)
 
-bill_amount = input("bill")
-service_qual =input("how was it")
-bill_amount = float(bill_amount)
+# bill_amount = input("How much was the total bill?")
+# service_qual = input("How was the service quality of your meal?>> good, fair or bad?")
+# service_qual = service_qual.lower()
+# bill_amount = float(bill_amount)
 
-if service_qual = 'good':
-    tip = bill_amount * 0.2
-    print('Tip amount' * 0.2 % tip)
-etc
-
-
-
-
-total = 0
-print("You have " + str(total) + " coins.")
-answer = input("Do you want another coin: ")
-answer_lower = answer.lower()
-if answer_lower == "yes":
-    new_answer = (total + 1)
-    print("You have " + str(new_answer) + " coins.")
-elif answer_lower == "no":
-    print("Bye")
+# if service_qual == 'good':
+#     tip = bill_amount * 0.2
+#     print(bill_amount + tip)
+# elif service_qual == 'fair':
+#     tip = bill_amount * 0.15
+#     print(bill_amount + tip)
+# elif service_qual == 'poor':
+#     tip = bill_amount * 0.1
+#     print(bill_amount + tip)
+# else:
+#     print('Not a valid tip')
 
 
-width = int(input("width?")) 
-height = int(input("height?"))
-print("*" * width)
-for i in range((height-2)):
-    print("*" + " " * (width-2) + "*")
-prinnt("*" *)
+# bill_amount = input("How much was the total bill?")
+# service_qual = input("How was the service quality of your meal?>> good, fair or bad?")
+# service_qual = service_qual.lower()
+# party = input("How many people are in your party?")
+
+# if service_qual == 'good':
+#     tip = bill_amount * 0.2
+#     total = (bill_amount + tip)
+#     myBill = (total/myBill)
+# elif service_qual == 'fair':
+#     tip = bill_amount * 0.15
+#     print(bill_amount + tip)
+# elif service_qual == 'poor':
+#     tip = bill_amount * 0.1
+#     print(bill_amount + tip)
+# else:
+#     print('Not a valid tip')
+
+
+
+
+
+# total = 0
+# print("You have " + str(total) + " coins.")
+# answer = input("Do you want another coin: ")
+# answer_lower = answer.lower()
+# if answer_lower == "yes":
+#     new_answer = (total + 1)
+#     print("You have " + str(new_answer) + " coins.")
+# elif answer_lower == "no":
+#     print("Bye")
+
+
+# width = int(input("width?")) 
+# height = int(input("height?"))
+# print("*" * width)
+# for i in range((height-2)):
+#     print("*" + " " * (width-2) + "*")
+# prinnt("*" *)
