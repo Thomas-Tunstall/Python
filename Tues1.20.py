@@ -54,7 +54,36 @@
 #     print('Invalid #')
 
 
-"""Did't quite Fin"""
-temp = input('Enter your temperature here')
-convert_to_F = (temp * 1.8 + 32)
-print(convert_to_F)
+# temp = input('Enter your temperature here')
+# convert_to_F = (temp * 1.8 + 32)
+# print(convert_to_F)
+
+bill_amount = input("bill")
+service_qual =input("how was it")
+bill_amount = float(bill_amount)
+
+if service_qual = 'good':
+    tip = bill_amount * 0.2
+    print('Tip amount' * 0.2 % tip)
+etc
+
+
+
+
+total = 0
+print("You have " + str(total) + " coins.")
+answer = input("Do you want another coin: ")
+answer_lower = answer.lower()
+if answer_lower == "yes":
+    new_answer = (total + 1)
+    print("You have " + str(new_answer) + " coins.")
+elif answer_lower == "no":
+    print("Bye")
+
+
+width = int(input("width?")) 
+height = int(input("height?"))
+print("*" * width)
+for i in range((height-2)):
+    print("*" + " " * (width-2) + "*")
+prinnt("*" *)
