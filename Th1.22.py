@@ -7,9 +7,7 @@
 #     subject = input("Subject goes here ")
 #     return subject
 
-
-
-# # print(f"{name()} favorite subject is {subject()}")
+# print(f"{name()} favorite subject is {subject()}")
 
 # Short 2
 # def CtF():
@@ -87,6 +85,38 @@
 #     return number
 # print("the smallest is:", FindMin())
 
+"""How to do it without built in functions"""
+# myList = [5,8,3,4,2]
+# def smallestZ(myList):
+#     smallest = myList[0]
+#     for num in myList:
+#         if smallest > num:
+#             smallest = num
+#     print(smallest)
+# smallestZ(myList)
+
+"""Another Example"""
+# def large(x):
+#     y = x[0]
+#     for i in x:
+#         if i > y:
+#             y = i
+ 
+#     return(y)
+# print(large( [2,3,4,55, 1,6]))
+
+"""Another Example"""
+# list_o_strings = ['hello', 'goodbye', 'Kearney', 'let\'s go!', 'Ohio State', 'more', 'lesson', 'help!']
+# def shortest(string_list):
+#     shortest_str = string_list[0]
+#     for each_string in string_list:
+#         if len(each_string) < len(shortest_str):
+#             shortest_str = each_string            
+#     return shortest_str
+# print(f'Your list of strings is: {list_o_strings}')
+# print(f'The shortest string in your list is: {shortest(list_o_strings)}')
+
+
 # # # Max
 # myList = [1,2,3,4,5,6,7,8,9]
 
@@ -97,15 +127,15 @@
 # print("the largest is:", FindMax())
 
 # Strings Short
-def ShortString():
-    strings = ["hey", "now", "you're", "an", "all-star", "go", "play"]
-    lilstring = min(strings, key=len)
-    return lilstring
-print(ShortString())
+# def ShortString():
+#     strings = ["hey", "now", "you're", "an", "all-star", "go", "play"]
+#     lilstring = min(strings, key=len)
+#     return lilstring
+# print(ShortString())
 
-# # #Srings Long
-def LongString():
-    strings = ["hey", "now", "you're", "an", "all-star", "go", "play"]
-    bigstring = max(strings, key=len)
-    return bigstring
-print (LongString())
+# # # #Srings Long
+# def LongString():
+#     strings = ["hey", "now", "you're", "an", "all-star", "go", "play"]
+#     bigstring = max(strings, key=len)
+#     return bigstring
+# print (LongString())
