@@ -80,19 +80,32 @@
 # It should return the smallest number in the List."""
 
 # Min
-myList = [1,2,3,4,5,6,7,8,9]
-number = min(myList)
-print("the smallest is:", number)
+# myList = [1,2,3,4,5,6,7,8,9]
 
-# Max
-myList = [1,2,3,4,5,6,7,8,9]
-number = max(myList)
-print("the smallest is:", number)
+# def FindMin():
+#     number = min(myList)
+#     return number
+# print("the smallest is:", FindMin())
 
-# # Strings Short
-# strings = ["some", "example", "words", "that", "i", "am", "fond", "of"]
-# print min(strings, key=len)
+# # # Max
+# myList = [1,2,3,4,5,6,7,8,9]
 
-#Srings Long
-strings = ["some", "example", "words", "that", "i", "am", "fond", "of"]
-print max(strings, key=len)
+# def FindMax():
+#     myList = [1,2,3,4,5,6,7,8,9]
+#     number = max(myList)
+#     return number
+# print("the largest is:", FindMax())
+
+# Strings Short
+def ShortString():
+    strings = ["hey", "now", "you're", "an", "all-star", "go", "play"]
+    lilstring = min(strings, key=len)
+    return lilstring
+print(ShortString())
+
+# # #Srings Long
+def LongString():
+    strings = ["hey", "now", "you're", "an", "all-star", "go", "play"]
+    bigstring = max(strings, key=len)
+    return bigstring
+print (LongString())
