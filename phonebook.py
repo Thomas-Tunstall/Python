@@ -3,7 +3,7 @@ import pickle
 import os.path
 
 if os.path.isfile("phonebook.pickle"):
-    with open ("phonebook.pickle", "rb") as fh:
+    with open("phonebook.pickle", "rb") as fh:
         Phonebook = pickle.load(fh)        
 else:
     Phonebook = {}
@@ -18,7 +18,6 @@ def menu():
     print("Press 5 to exit phonebook")
 
 user_input = 0
-Phonebook = {}
 
 while user_input != "5":
     user_input = (input("Which option would you like? 1-5 "))
